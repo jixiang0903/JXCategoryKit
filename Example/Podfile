@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JXCategoryKit_Example' do
+  pod 'JXCategoryKit', :path => '../'
+
+  target 'JXCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
